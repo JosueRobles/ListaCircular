@@ -7,11 +7,11 @@ int main()
     head = new Nodo();
     segundo = new Nodo();
     tercero = new Nodo();
-    head->data = 1;
+    head->data = 1; //insert()
     head->sig = segundo;
-    segundo->data = 2;
-    segundo->sig = third;
-    tercero->data = 3;
+    segundo->data = 2; //insert()
+    segundo->sig = tercero;
+    tercero->data = 3; //insert()
     tercero->sig = NULL;
     print(head);
     return 0;
